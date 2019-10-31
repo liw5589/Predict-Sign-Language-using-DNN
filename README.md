@@ -9,6 +9,8 @@
 3. csv 파일을 학습시킨다.
 ##### tensorflow 모듈을 이용
 4. middle_present.py 파일은 학습한 모델을 불러와서 입력한 손동작이 어떠한 손동작인지 알려주는 파일
+##### 또 middle_present.py 에서 각 손가락에 대한 x, y, z 값에 대하여 곱하기 100을 함
+##### 값이 아주 작게 차이 나기 때문에 각 값에 대해 *100을 하여 값이 차이 많이 나도록 한다.
 -----------------------------------------------------------------
 ### DNN model that obtains input value for hand gesture by using Leapmotion and learns input value
 1. Use Leapmotion to preprocess the return value for the finger gesture.
