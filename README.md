@@ -8,6 +8,7 @@
 ##### Leapmotion에서 제공하는 sample.py 파일에 내가 필요한 값들을 전처리하여 엑셀 파일로 저장
 3. csv 파일을 학습시킨다.
 ##### tensorflow 모듈을 이용
+4. middle_present.py 파일은 학습한 모델을 불러와서 입력한 손동작이 어떠한 손동작인지 알려주는 파일
 -----------------------------------------------------------------
 ### DNN model that obtains input value for hand gesture by using Leapmotion and learns input value
 1. Use Leapmotion to preprocess the return value for the finger gesture.
@@ -17,3 +18,4 @@
 ##### Pre-process the values in the sample.py file provided by Leapmotion and save it as an Excel file
 3. Train the csv file.
 ##### Using Tensorflow Module
+4. The middle_present.py file is a file that imports the trained model and tells what type of hand gestures are entered.
